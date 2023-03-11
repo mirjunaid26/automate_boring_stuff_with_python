@@ -7,3 +7,36 @@ a = 2
 b = 3
 c = a + b
 print(c)
+
+tax = 12.5 / 100
+price = 100.50
+d = price * tax
+print(d)
+
+# Strings
+a = 'spam eggs'
+print(a)
+
+b = ' "Yes," they said.'
+print(b)
+
+# Lists
+squares = [1, 2, 3, 4]
+print(squares)
+print(squares[-1])
+print(squares[-2])
+print(squares[3])
+
+squares += [5, 6, 7, 8]
+print(squares)
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f']
+print(letters)
+print(letters[:])
+print(letters[:0])
+print(letters[:1])
+print(letters[:2])
+print(letters[:-1])
+print(letters[:-2])
+
+print(len(letters))
