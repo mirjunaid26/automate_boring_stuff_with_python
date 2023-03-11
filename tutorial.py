@@ -40,3 +40,14 @@ print(letters[:-1])
 print(letters[:-2])
 
 print(len(letters))
+
+# First Steps Towards Programming
+
+# Fibonacci series
+a = 0
+b = 1
+
+while a < 100:
+    print(a)
+    a = b
+    b = a + b
