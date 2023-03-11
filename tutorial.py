@@ -51,3 +51,10 @@ while a < 100:
     print(a)
     a = b
     b = a + b
+
+# keyword end argument
+a = 0
+b = 1
+while a < 1000:
+    print(a, end=',') # keyword end is used to avoid new line
+    a, b = b, a+b
