@@ -1,9 +1,10 @@
 # print("Hello PyCharm")
 
-def add(a, b):
-    c = a + b
-    return c
+def next_year():
+    global year
+    print("The current year is: ", year)
+    year += 1
+    print("The next year will be: ", year)
 
-
-c = add(2, 3)
-print(c)
+year = 2023
+next_year()
