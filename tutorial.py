@@ -88,3 +88,10 @@ for user, status in users.items():
 
 
 # range function
+
+a = ['Marry', 'had', 'a', 'little', 'lamb']
+for i in range(len(a)):
+    print(i, a[i])
+
+x = sum(range(4))
+print(x)
