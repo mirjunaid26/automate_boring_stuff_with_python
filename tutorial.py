@@ -126,5 +126,20 @@ def http_error(status):
             return "I'm a teapot"
         case _:
             return "Something's wrong with the internet."
-a = http_error(input("Enter status: "))
-print(a)
+#a = http_error(input("Enter status: "))
+#print(a)
+
+
+# DEFINING FUNCTIONS
+
+#Fibonacci series
+def fib(n):
+    """Print a Fibonacci series up to n."""
+    a, b = 0, 1
+    while a < n:
+        print(a, end=' ') # end prevents the line break
+        a, b = b, a+b
+    print()
+
+a = fib(15)
+a
