@@ -14,6 +14,13 @@ that you've written in several programs
 without coying its definition into
 each program.
 
-To
+To support this, Python has a way to put definitions
+in a file and use them in a script or in an interactive
+instance of the interpreter. Such a file is called
+a module (the collection of variables that you have
+access to in a script executed at the top level
+and in calculator mode.)
+
+
 
 """
