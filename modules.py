@@ -21,6 +21,11 @@ a module (the collection of variables that you have
 access to in a script executed at the top level
 and in calculator mode.)
 
-
+A module is a file containing Python definitions
+and statements. The file name is the module name with the suffix
+.py appended. Within a module, the module's name (as a string) is
+available as the value of the global variable __name__.
+For instance, use your favourite text editor to create a file called module.py
+in the current directory with the following contents:
 
 """
