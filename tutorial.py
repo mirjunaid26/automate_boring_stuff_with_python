@@ -60,3 +60,10 @@ while a < 1000:
     a, b = b, a+b
 
 print("New Branch")
+
+# Control Flow Tools
+
+# Measure some strings
+words = ['cat', 'window', 'defenestrate']
+for w in words:
+    print(w, len(w))
