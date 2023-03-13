@@ -141,5 +141,5 @@ def fib(n):
         a, b = b, a+b
     print()
 
-a = fib(15)
+a = fib(100)
 a
